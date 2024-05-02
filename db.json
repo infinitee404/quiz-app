@@ -1,65 +1,65 @@
 {
     "HTML": [
-      {
+        {
         "id": 1,
         "question": "What does HTML stand for?",
-        "options": ["Hyper Text Markup Language", "Hyperlinks and Text Markup Language", "Home Tool Markup Language", "Hyper Tool Multi Language"],
+        "options": ["Hyper Tool Multi Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language", "Hyper Text Markup Language"],
         "correctOption": "Hyper Text Markup Language"
-      },
-      {
+        },
+        {
         "id": 2,
         "question": "Which HTML element is used to define an unordered list?",
-        "options": ["<ul>", "<ol>", "<li>", "<list>"],
+        "options": ["<list>", "<ul>", "<ol>", "<li>"],
         "correctOption": "<ul>"
-      },
-      {
+        },
+        {
         "id": 3,
         "question": "Which HTML attribute is used to define inline styles?",
-        "options": ["style", "css", "class", "font"],
+        "options": ["style", "class", "font", "css"],
         "correctOption": "style"
-      },
-      {
+        },
+        {
         "id": 4,
         "question": "Which HTML element is used to specify a header for a document or section?",
-        "options": ["<header>", "<head>", "<h1>", "<section>"],
+        "options": ["<head>", "<section>", "<h1>", "<header>"],
         "correctOption": "<header>"
-      },
-      {
+        },
+        {
         "id": 5,
         "question": "What does the HTML <canvas> element is used for?",
-        "options": ["Drawing graphics", "Creating draggable elements", "Building layouts", "Embedding video"],
+        "options": ["Drawing graphics", "Creating draggable elements", "Embedding video", "Building layouts"],
         "correctOption": "Drawing graphics"
-      },
-      {
+        },
+        {
         "id": 6,
         "question": "Which tag is used to create a hyperlink?",
-        "options": ["<a>", "<href>", "<link>", "<hyperlink>"],
+        "options": ["<hyperlink>", "<a>", "<href>", "<link>"],
         "correctOption": "<a>"
-      },
-      {
+        },
+        {
         "id": 7,
         "question": "Which HTML element is used to display a scalar measurement within a range?",
-        "options": ["<meter>", "<range>", "<progress>", "<scale>"],
+        "options": ["<meter>", "<progress>", "<range>", "<scale>"],
         "correctOption": "<meter>"
-      },
-      {
+        },
+        {
         "id": 8,
         "question": "Which HTML element is used to display computer code?",
-        "options": ["<code>", "<pre>", "<computer>", "<prog>"],
+        "options": ["<pre>", "<code>", "<computer>", "<prog>"],
         "correctOption": "<code>"
-      },
-      {
+        },
+        {
         "id": 9,
         "question": "Which HTML element represents the most important heading of a section?",
-        "options": ["<h1>", "<h2>", "<head>", "<header>"],
+        "options": ["<head>", "<header>", "<h2>", "<h1>"],
         "correctOption": "<h1>"
-      },
-      {
+        },
+        {
         "id": 10,
         "question": "Which HTML element defines navigation links?",
-        "options": ["<nav>", "<navigate>", "<navigation>", "<link>"],
+        "options": ["<navigate>", "<link>", "<nav>", "<navigation>"],
         "correctOption": "<nav>"
-      }
+        }
     ],
     "CSS": [
       {
@@ -189,61 +189,61 @@
         {
         "id": 1,
         "question": "What does WCAG stand for?",
-        "options": ["Web Content Accessibility Guidelines", "Worldwide Consortium for Accessibility Guidelines", "Web Content Authoring Guidelines", "Worldwide Consortium for Authoring Guidelines"],
+        "options": ["Web Content Authoring Guidelines", "Worldwide Consortium for Authoring Guidelines", "Worldwide Consortium for Accessibility Guidelines", "Web Content Accessibility Guidelines"],
         "correctOption": "Web Content Accessibility Guidelines"
         },
         {
         "id": 2,
         "question": "Which HTML attribute is used to provide an alternative text for an image?",
-        "options": ["alt", "src", "title", "alt-text"],
+        "options": ["src", "alt-text", "alt", "title"],
         "correctOption": "alt"
         },
         {
         "id": 3,
         "question": "What does ARIA stand for?",
-        "options": ["Accessible Rich Internet Applications", "Advanced Rich Internet Applications", "Accessible Rendering Internet Applications", "Advanced Rendering Internet Applications"],
+        "options": ["Accessible Rendering Internet Applications", "Advanced Rendering Internet Applications", "Accessible Rich Internet Applications", "Advanced Rich Internet Applications"],
         "correctOption": "Accessible Rich Internet Applications"
         },
         {
         "id": 4,
         "question": "Which ARIA attribute is used to define the purpose of a button, link, or input element?",
-        "options": ["role", "purpose", "type", "accessibility"],
+        "options": ["type", "role", "purpose", "accessibility"],
         "correctOption": "role"
         },
         {
         "id": 5,
         "question": "What is the purpose of semantic HTML?",
-        "options": ["To improve search engine optimization", "To improve accessibility and structure", "To enhance visual appearance", "To increase security"],
+        "options": ["To improve accessibility and structure", "To enhance visual appearance", "To increase security", "To improve search engine optimization"],
         "correctOption": "To improve accessibility and structure"
         },
         {
         "id": 6,
         "question": "Which HTML element is used to provide navigation links in a document?",
-        "options": ["<nav>", "<navigate>", "<navigation>", "<link>"],
+        "options": ["<navigation>", "<link>", "<navigate>", "<nav>"],
         "correctOption": "<nav>"
         },
         {
         "id": 7,
         "question": "What is the recommended color contrast ratio for text and its background according to WCAG 2.0?",
-        "options": ["3:1", "4.5:1", "5:1", "7:1"],
+        "options": ["5:1", "3:1", "4.5:1", "7:1"],
         "correctOption": "4.5:1"
         },
         {
         "id": 8,
         "question": "Which HTML element is used to group related elements in a form?",
-        "options": ["<fieldset>", "<group>", "<form-group>", "<section>"],
+        "options": ["<form-group>", "<group>", "<fieldset>", "<section>"],
         "correctOption": "<fieldset>"
         },
         {
         "id": 9,
         "question": "Which HTML element is used to create a list of items that don't have a numerical order?",
-        "options": ["<ul>", "<ol>", "<li>", "<list>"],
+        "options": ["<list>", "<ul>", "<li>", "<ol>"],
         "correctOption": "<ul>"
         },
         {
         "id": 10,
         "question": "What does the alt attribute in an image tag provide?",
-        "options": ["An alternative text for the image", "The image source", "The image dimensions", "The image title"],
+        "options": ["The image dimensions", "An alternative text for the image", "The image source", "The image title"],
         "correctOption": "An alternative text for the image"
         }
     ]
