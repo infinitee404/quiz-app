@@ -4,61 +4,61 @@
         "id": 1,
         "question": "What does HTML stand for?",
         "options": ["Hyper Text Markup Language", "Hyperlinks and Text Markup Language", "Home Tool Markup Language", "Hyper Tool Multi Language"],
-        "correctAnswer": "Hyper Text Markup Language"
+        "correctOption": "Hyper Text Markup Language"
       },
       {
         "id": 2,
         "question": "Which HTML element is used to define an unordered list?",
         "options": ["<ul>", "<ol>", "<li>", "<list>"],
-        "correctAnswer": "<ul>"
+        "correctOption": "<ul>"
       },
       {
         "id": 3,
         "question": "Which HTML attribute is used to define inline styles?",
         "options": ["style", "css", "class", "font"],
-        "correctAnswer": "style"
+        "correctOption": "style"
       },
       {
         "id": 4,
         "question": "Which HTML element is used to specify a header for a document or section?",
         "options": ["<header>", "<head>", "<h1>", "<section>"],
-        "correctAnswer": "<header>"
+        "correctOption": "<header>"
       },
       {
         "id": 5,
         "question": "What does the HTML <canvas> element is used for?",
         "options": ["Drawing graphics", "Creating draggable elements", "Building layouts", "Embedding video"],
-        "correctAnswer": "Drawing graphics"
+        "correctOption": "Drawing graphics"
       },
       {
         "id": 6,
         "question": "Which tag is used to create a hyperlink?",
         "options": ["<a>", "<href>", "<link>", "<hyperlink>"],
-        "correctAnswer": "<a>"
+        "correctOption": "<a>"
       },
       {
         "id": 7,
         "question": "Which HTML element is used to display a scalar measurement within a range?",
         "options": ["<meter>", "<range>", "<progress>", "<scale>"],
-        "correctAnswer": "<meter>"
+        "correctOption": "<meter>"
       },
       {
         "id": 8,
         "question": "Which HTML element is used to display computer code?",
         "options": ["<code>", "<pre>", "<computer>", "<prog>"],
-        "correctAnswer": "<code>"
+        "correctOption": "<code>"
       },
       {
         "id": 9,
         "question": "Which HTML element represents the most important heading of a section?",
         "options": ["<h1>", "<h2>", "<head>", "<header>"],
-        "correctAnswer": "<h1>"
+        "correctOption": "<h1>"
       },
       {
         "id": 10,
         "question": "Which HTML element defines navigation links?",
         "options": ["<nav>", "<navigate>", "<navigation>", "<link>"],
-        "correctAnswer": "<nav>"
+        "correctOption": "<nav>"
       }
     ],
     "CSS": [
@@ -66,61 +66,61 @@
         "id": 1,
         "question": "What does CSS stand for?",
         "options": ["Cascading Style Sheets", "Computer Style Sheets", "Colorful Style Sheets", "Creative Style Sheets"],
-        "correctAnswer": "Cascading Style Sheets"
+        "correctOption": "Cascading Style Sheets"
       },
       {
         "id": 2,
         "question": "Which CSS property is used to change the text color of an element?",
         "options": ["text-color", "color", "font-color", "foreground-color"],
-        "correctAnswer": "color"
+        "correctOption": "color"
       },
       {
         "id": 3,
         "question": "Which CSS property is used to control the spacing between lines of text?",
         "options": ["line-spacing", "spacing", "line-height", "text-spacing"],
-        "correctAnswer": "line-height"
+        "correctOption": "line-height"
       },
       {
         "id": 4,
         "question": "Which CSS property is used to change the background color of an element?",
         "options": ["background-color", "bgcolor", "color-background", "background"],
-        "correctAnswer": "background-color"
+        "correctOption": "background-color"
       },
       {
         "id": 5,
         "question": "Which CSS property is used to change the font of an element?",
         "options": ["font-family", "font", "text-font", "font-style"],
-        "correctAnswer": "font-family"
+        "correctOption": "font-family"
       },
       {
         "id": 6,
         "question": "Which CSS property is used to set the width of an element?",
         "options": ["width", "size", "height", "length"],
-        "correctAnswer": "width"
+        "correctOption": "width"
       },
       {
         "id": 7,
         "question": "Which CSS property is used to make text bold?",
         "options": ["font-bold", "weight", "bold", "font-weight"],
-        "correctAnswer": "font-weight"
+        "correctOption": "font-weight"
       },
       {
         "id": 8,
         "question": "Which CSS property is used to create space around elements, outside of any defined borders?",
         "options": ["spacing", "margin", "padding", "border"],
-        "correctAnswer": "margin"
+        "correctOption": "margin"
       },
       {
         "id": 9,
         "question": "Which CSS property is used to control the state of an element?",
         "options": ["condition", "state", "element-state", "pseudo-class"],
-        "correctAnswer": "pseudo-class"
+        "correctOption": "pseudo-class"
       },
       {
         "id": 10,
         "question": "Which CSS property is used to add shadow to text?",
         "options": ["text-shadow", "shadow", "font-shadow", "box-shadow"],
-        "correctAnswer": "text-shadow"
+        "correctOption": "text-shadow"
       }
     ],
     "JavaScript": [
@@ -128,61 +128,61 @@
             "id": 1,
             "question": "What is JavaScript?",
             "options": ["A server-side scripting language", "A markup language", "A programming language", "A stylesheet language"],
-            "correctAnswer": "A programming language"
+            "correctOption": "A programming language"
         },
         {
             "id": 2,
             "question": "Which keyword is used to declare variables in JavaScript?",
             "options": ["variable", "declare", "var", "int"],
-            "correctAnswer": "var"
+            "correctOption": "var"
         },
         {
         "id": 3,
         "question": "What will the following code output: console.log(typeof [])?",
         "options": ["'array'", "'object'", "'null'", "'undefined'"],
-        "correctAnswer": "'object'"
+        "correctOption": "'object'"
         },
         {
         "id": 4,
         "question": "Which built-in method removes the last element from an array and returns that element?",
         "options": ["pop()", "push()", "join()", "removeLast()"],
-        "correctAnswer": "pop()"
+        "correctOption": "pop()"
         },
         {
         "id": 5,
         "question": "Which of the following is not a valid JavaScript variable name?",
         "options": ["myVar", "_myVar", "$myVar", "2myVar"],
-        "correctAnswer": "2myVar"
+        "correctOption": "2myVar"
         },
         {
         "id": 6,
         "question": "What is the result of '3' + 2 in JavaScript?",
         "options": ["'32'", "'5'", "'6'", "'7'"],
-        "correctAnswer": "'32'"
+        "correctOption": "'32'"
         },
         {
         "id": 7,
         "question": "Which function is used to parse a string to an integer in JavaScript?",
         "options": ["parseInt()", "parseInteger()", "stringToInt()", "intParse()"],
-        "correctAnswer": "parseInt()"
+        "correctOption": "parseInt()"
         },
         {
         "id": 8,
         "question": "What is the result of typeof undefined in JavaScript?",
         "options": ["'undefined'", "'null'", "'object'", "'string'"],
-        "correctAnswer": "'undefined'"
+        "correctOption": "'undefined'"
         },
         {
         "id": 9,
         "question": "What is the output of console.log(1 + '1') in JavaScript?",
         "options": ["11", "2", "'11'", "'2'"],
-        "correctAnswer": "'11'"
+        "correctOption": "'11'"
         },
         {
         "id": 10,
         "question": "What does the JavaScript method setInterval() do?",
         "options": ["Calls a function repeatedly", "Calls a function after a specified number of milliseconds", "Calls a function at a specified time", "Stops the execution of a function"],
-        "correctAnswer": "Calls a function repeatedly"
+        "correctOption": "Calls a function repeatedly"
         }
     ],
     "Accessibility": [
@@ -190,61 +190,61 @@
         "id": 1,
         "question": "What does WCAG stand for?",
         "options": ["Web Content Accessibility Guidelines", "Worldwide Consortium for Accessibility Guidelines", "Web Content Authoring Guidelines", "Worldwide Consortium for Authoring Guidelines"],
-        "correctAnswer": "Web Content Accessibility Guidelines"
+        "correctOption": "Web Content Accessibility Guidelines"
         },
         {
         "id": 2,
         "question": "Which HTML attribute is used to provide an alternative text for an image?",
         "options": ["alt", "src", "title", "alt-text"],
-        "correctAnswer": "alt"
+        "correctOption": "alt"
         },
         {
         "id": 3,
         "question": "What does ARIA stand for?",
         "options": ["Accessible Rich Internet Applications", "Advanced Rich Internet Applications", "Accessible Rendering Internet Applications", "Advanced Rendering Internet Applications"],
-        "correctAnswer": "Accessible Rich Internet Applications"
+        "correctOption": "Accessible Rich Internet Applications"
         },
         {
         "id": 4,
         "question": "Which ARIA attribute is used to define the purpose of a button, link, or input element?",
         "options": ["role", "purpose", "type", "accessibility"],
-        "correctAnswer": "role"
+        "correctOption": "role"
         },
         {
         "id": 5,
         "question": "What is the purpose of semantic HTML?",
         "options": ["To improve search engine optimization", "To improve accessibility and structure", "To enhance visual appearance", "To increase security"],
-        "correctAnswer": "To improve accessibility and structure"
+        "correctOption": "To improve accessibility and structure"
         },
         {
         "id": 6,
         "question": "Which HTML element is used to provide navigation links in a document?",
         "options": ["<nav>", "<navigate>", "<navigation>", "<link>"],
-        "correctAnswer": "<nav>"
+        "correctOption": "<nav>"
         },
         {
         "id": 7,
         "question": "What is the recommended color contrast ratio for text and its background according to WCAG 2.0?",
         "options": ["3:1", "4.5:1", "5:1", "7:1"],
-        "correctAnswer": "4.5:1"
+        "correctOption": "4.5:1"
         },
         {
         "id": 8,
         "question": "Which HTML element is used to group related elements in a form?",
         "options": ["<fieldset>", "<group>", "<form-group>", "<section>"],
-        "correctAnswer": "<fieldset>"
+        "correctOption": "<fieldset>"
         },
         {
         "id": 9,
         "question": "Which HTML element is used to create a list of items that don't have a numerical order?",
         "options": ["<ul>", "<ol>", "<li>", "<list>"],
-        "correctAnswer": "<ul>"
+        "correctOption": "<ul>"
         },
         {
         "id": 10,
         "question": "What does the alt attribute in an image tag provide?",
         "options": ["An alternative text for the image", "The image source", "The image dimensions", "The image title"],
-        "correctAnswer": "An alternative text for the image"
+        "correctOption": "An alternative text for the image"
         }
     ]
 }
