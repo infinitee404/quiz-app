@@ -3,49 +3,49 @@
         {
         "id": 1,
         "question": "What does HTML stand for?",
-        "options": ["Hyper Tool Multi Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language", "Hyper Text Markup Language"],
+        "options": ["Hyper Tool Multi Language", "Home Tool Markup Language",  "Hyper Text Markup Language", "Hyperlinks and Text Markup Language"],
         "correctOption": "Hyper Text Markup Language"
         },
         {
         "id": 2,
         "question": "Which HTML element is used to define an unordered list?",
-        "options": ["<list>", "<ul>", "<ol>", "<li>"],
+        "options": ["<list>", "<ol>", "<ul>", "<li>"],
         "correctOption": "<ul>"
         },
         {
         "id": 3,
         "question": "Which HTML attribute is used to define inline styles?",
-        "options": ["style", "class", "font", "css"],
+        "options": ["class", "font", "css", "style"],
         "correctOption": "style"
         },
         {
         "id": 4,
         "question": "Which HTML element is used to specify a header for a document or section?",
-        "options": ["<head>", "<section>", "<h1>", "<header>"],
+        "options": ["<header>", "<section>", "<h1>", "<head>"],
         "correctOption": "<header>"
         },
         {
         "id": 5,
         "question": "What does the HTML <canvas> element is used for?",
-        "options": ["Drawing graphics", "Creating draggable elements", "Embedding video", "Building layouts"],
+        "options": ["Creating draggable elements", "Drawing graphics", "Embedding video", "Building layouts"],
         "correctOption": "Drawing graphics"
         },
         {
         "id": 6,
         "question": "Which tag is used to create a hyperlink?",
-        "options": ["<hyperlink>", "<a>", "<href>", "<link>"],
+        "options": ["<hyperlink>", "<link>", "<href>", "<a>"],
         "correctOption": "<a>"
         },
         {
         "id": 7,
         "question": "Which HTML element is used to display a scalar measurement within a range?",
-        "options": ["<meter>", "<progress>", "<range>", "<scale>"],
+        "options": ["<progress>", "<meter>", "<range>", "<scale>"],
         "correctOption": "<meter>"
         },
         {
         "id": 8,
         "question": "Which HTML element is used to display computer code?",
-        "options": ["<pre>", "<code>", "<computer>", "<prog>"],
+        "options": ["<code>", "<pre>", "<computer>", "<prog>"],
         "correctOption": "<code>"
         },
         {
@@ -65,7 +65,7 @@
       {
         "id": 1,
         "question": "What does CSS stand for?",
-        "options": ["Cascading Style Sheets", "Computer Style Sheets", "Colorful Style Sheets", "Creative Style Sheets"],
+        "options": ["Computer Style Sheets", "Colorful Style Sheets", "Cascading Style Sheets", "Creative Style Sheets"],
         "correctOption": "Cascading Style Sheets"
       },
       {
@@ -83,7 +83,7 @@
       {
         "id": 4,
         "question": "Which CSS property is used to change the background color of an element?",
-        "options": ["background-color", "bgcolor", "color-background", "background"],
+        "options": ["bgcolor", "color-background", "background", "background-color"],
         "correctOption": "background-color"
       },
       {
@@ -107,7 +107,7 @@
       {
         "id": 8,
         "question": "Which CSS property is used to create space around elements, outside of any defined borders?",
-        "options": ["spacing", "margin", "padding", "border"],
+        "options": ["spacing", "padding", "margin", "border"],
         "correctOption": "margin"
       },
       {
@@ -119,7 +119,7 @@
       {
         "id": 10,
         "question": "Which CSS property is used to add shadow to text?",
-        "options": ["text-shadow", "shadow", "font-shadow", "box-shadow"],
+        "options": ["shadow", "text-shadow", "font-shadow", "box-shadow"],
         "correctOption": "text-shadow"
       }
     ],
@@ -133,31 +133,31 @@
         {
             "id": 2,
             "question": "Which keyword is used to declare variables in JavaScript?",
-            "options": ["variable", "declare", "var", "int"],
+            "options": ["var", "declare", "variable", "int"],
             "correctOption": "var"
         },
         {
         "id": 3,
         "question": "What will the following code output: console.log(typeof [])?",
-        "options": ["'array'", "'object'", "'null'", "'undefined'"],
+        "options": ["'object'", "'array'", "'null'", "'undefined'"],
         "correctOption": "'object'"
         },
         {
         "id": 4,
         "question": "Which built-in method removes the last element from an array and returns that element?",
-        "options": ["pop()", "push()", "join()", "removeLast()"],
+        "options": ["removeLast()", "push()", "join()", "pop()"],
         "correctOption": "pop()"
         },
         {
         "id": 5,
         "question": "Which of the following is not a valid JavaScript variable name?",
-        "options": ["myVar", "_myVar", "$myVar", "2myVar"],
+        "options": ["myVar", "_myVar", "2myVar", "$myVar"],
         "correctOption": "2myVar"
         },
         {
         "id": 6,
         "question": "What is the result of '3' + 2 in JavaScript?",
-        "options": ["'32'", "'5'", "'6'", "'7'"],
+        "options": ["'5'", "'32'", "'6'", "'7'"],
         "correctOption": "'32'"
         },
         {
@@ -181,7 +181,7 @@
         {
         "id": 10,
         "question": "What does the JavaScript method setInterval() do?",
-        "options": ["Calls a function repeatedly", "Calls a function after a specified number of milliseconds", "Calls a function at a specified time", "Stops the execution of a function"],
+        "options": ["Stops the execution of a function", "Calls a function after a specified number of milliseconds", "Calls a function at a specified time", "Calls a function repeatedly"],
         "correctOption": "Calls a function repeatedly"
         }
     ],
@@ -195,7 +195,7 @@
         {
         "id": 2,
         "question": "Which HTML attribute is used to provide an alternative text for an image?",
-        "options": ["src", "alt-text", "alt", "title"],
+        "options": ["alt", "alt-text", "src", "title"],
         "correctOption": "alt"
         },
         {
@@ -230,15 +230,15 @@
         },
         {
         "id": 8,
-        "question": "Which HTML element is used to group related elements in a form?",
-        "options": ["<form-group>", "<group>", "<fieldset>", "<section>"],
-        "correctOption": "<fieldset>"
-        },
-        {
-        "id": 9,
         "question": "Which HTML element is used to create a list of items that don't have a numerical order?",
         "options": ["<list>", "<ul>", "<li>", "<ol>"],
         "correctOption": "<ul>"
+        },
+        {
+        "id": 9,
+        "question": "Which HTML element is used to group related elements in a form?",
+        "options": ["<form-group>", "<group>", "<fieldset>", "<section>"],
+        "correctOption": "<fieldset>"
         },
         {
         "id": 10,
