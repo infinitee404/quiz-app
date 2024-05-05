@@ -296,19 +296,19 @@ nav{
 }
 
 .logo-htm{
-    background-color: #ffefe8;
+    background-color: #fff0e6;
 }
 
 .logo-css{
-    background-color: #e2fcef;
+    background-color: #dffdf1;
 }
 
 .logo-js{
-    background-color: #dee8ff;
+    background-color: #e9f1fe;
 }
 
 .logo-acc{
-    background-color: #f1c9ff;
+    background-color: #f5e7ff;
 }
 
 :root{
@@ -388,11 +388,6 @@ nav{
         height: 80px;
         width: 80vw;
         font-size: 1.25rem;
-    }
-
-    .options-logo{
-        height: 50px;
-        width: 50px;
     }
     
     .options-name{

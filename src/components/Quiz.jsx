@@ -9,8 +9,8 @@ const GameOver = ( props ) => {
     return(
         <>
             <div className="game-over-screen">
-                <h1 className="game-over-heading">Game Over</h1>
-                <h3 className="game-over-score">Score: {props.finalScore} </h3>
+                <h1 className="game-over-heading">{props.finalScore < 5 ? "Game Over" : "Well done"}</h1>
+                <h3 className="game-over-score">You scored{props.finalScore < 5 ? " only " : null}  {props.finalScore * 10}%. </h3>
                 <button 
                     className="game-over-button"
                     onClick={returnToStart}    
@@ -30,7 +30,6 @@ const Quiz = (props) => {
     const [correctOption, setCorrectOption] = useState(null)
     const score = useRef(0)
     let category = props.selectCategory
-    let disableButton;
 
     useEffect(() => {
         const fetchQuestions = async () => {
@@ -50,7 +49,7 @@ const Quiz = (props) => {
         fetchQuestions() 
     }, []) 
 
-    // to check if fetching is completed.
+    // to render if not fetched.
     if (!quizData.length) {
         return <div className="loading"><span className="loader" /> &nbsp; Loading &nbsp; <span className="loader" /></div>
     }
@@ -76,17 +75,35 @@ const Quiz = (props) => {
             setTimeout(() => {
                 if(questionNum != 9){
                     setQuestionNum(prevQues => prevQues+1)
+                    
                 }else{
                     setGameOver(true)
                 }
                 setWrongOption(null)
                 setCorrectOption(null)
+                setShowError(false)
             }, 1500);  //ms before switching to next question
         }
-        setShowError(false)
         setSelectedOption(null)
     }
 
+    const keyPressed = (event, index) => {
+        if (event.keyCode === 13) {
+            const source = event.target.tagName.toLowerCase()
+            if (source === "div") {
+                setSelectedOption(index)
+            } else if (source === "button") {
+                event.preventDefault() // Prevent default behavior of Enter key on the button
+                if (selectedOption === null) {
+                    setShowError(true)
+                } else {
+                    setShowError(false)
+                    changeQuestion()
+                }
+            }
+        }
+    }    
+    
     const currentQuestion = quizData[questionNum] 
 
     return (
@@ -115,12 +132,17 @@ const Quiz = (props) => {
                                 ${correctOption == index ? "selected-correct" : null}
                             `}
                             onClick={() => setSelectedOption(index)}
+                            onKeyDown={(e) => keyPressed(e, index)}
                         >
                             <div className="options-logo option-box">{String.fromCharCode(65 + index)}</div>
                             <div className="options-name">{option}</div>
                         </div>
                     ))}
-                    <button className="options submit-button" onClick={changeQuestion}>Submit Answer</button>
+                    <button 
+                        className="options submit-button" 
+                        onClick={changeQuestion}
+                        onKeyDown={(e) => keyPressed(e, -1)}
+                    >Submit Answer</button>
                     {showError && <div className="options error">Please select an option</div>}
                 </div>
             </div>

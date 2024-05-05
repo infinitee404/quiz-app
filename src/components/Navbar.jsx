@@ -3,10 +3,21 @@ import 'boxicons'
 const Navbar = ({ handleChange, isChecked }) => {
   const darkStyle = "#232323"
   const lightStyle = "#f1f1f1" 
+
+  const handleKeyPress = (event, category) => {
+    if (event.keyCode === 13) {
+      handleChange()
+    }
+  }
+
   return (
     <nav className="navbar">
         <box-icon name="sun" type="solid" color={isChecked ? darkStyle : lightStyle } />
-        <div className="toggle-space" tabIndex="1">
+        <div 
+          className="toggle-space" 
+          tabIndex="0"
+          onKeyDown={(e) => handleKeyPress(e)}
+        >
           <input 
             type="checkbox" 
             id="mode-toggle" 
