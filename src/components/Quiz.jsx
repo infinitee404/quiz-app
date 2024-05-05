@@ -52,7 +52,7 @@ const Quiz = (props) => {
 
     // to check if fetching is completed.
     if (!quizData.length) {
-        return <div className="description">Loading...</div>
+        return <div className="loading"><span className="loader" /> &nbsp; Loading &nbsp; <span className="loader" /></div>
     }
 
     const changeQuestion = () => {
@@ -107,6 +107,7 @@ const Quiz = (props) => {
                     {currentQuestion.options.map((option, index) => (
                         <div 
                             key={index} 
+                            tabIndex="0"
                             className={`
                                 options 
                                 ${selectedOption == index ? "selected-option" : null } 
