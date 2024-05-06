@@ -6,7 +6,7 @@
 }
 
 .app{
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--bg-primary);
     color: var(--text-primary);
     transition: all 0.3s ease-in;
@@ -60,7 +60,7 @@ nav{
     align-items: flex-start;
     padding: 50px 100px;
     width: 100%;
-    height: calc(100vh - 200px);    /* Reducing height of navbar from full height */
+    min-height: auto;
 }
 
 .description{
@@ -199,10 +199,6 @@ nav{
     border: none;
     box-shadow: 0px 0px 20px var(--highlight);
 }
-
-/* .submit-button:focus{
-    border: 3px solid var(--correct);
-} */
 
 .error{
     background-color: transparent;
@@ -348,7 +344,6 @@ nav{
     .container{
         flex-direction: column;
         padding: 50px;
-        justify-content: flex-start;
         align-items: center;
     }
 
@@ -412,17 +407,3 @@ nav{
         height: 40px;
     }
 }
-
-/*
-    --bg-primary: #313e51;
-    --bg-secondary: #2d3949;
-    --bg-options-box: #ffffff;
-    --text-primary: #f1f1f1;
-    --text-secondary: #232323;
-    --text-muted: #7f8ea4;
-    --error: #ff8389;
-    --correct: #24a148;
-    --bg-option: #3c4d67;
-    --highlight: #d9fbfb;
-    --button-bg: #a52af8;
-*/

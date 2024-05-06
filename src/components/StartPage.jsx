@@ -2,6 +2,7 @@ import React from 'react'
 
 const StartPage = ({ onClick }) => {
 
+
     const sendCategory = (category) => {
         onClick(category)
     }
