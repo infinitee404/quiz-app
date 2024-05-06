@@ -14,7 +14,7 @@
 
 nav{
     background-color: transparent;
-    height: 200px;
+    height: 160px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -58,7 +58,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 50px 100px;
+    padding: 50px 100px 0 100px;
     width: 100%;
     min-height: auto;
 }
@@ -211,6 +211,13 @@ nav{
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 0;
+}
+
+.error:hover{
+    transform: none;
+    border: none;
+    cursor: default;
 }
 
 .game-over-screen{
@@ -254,7 +261,7 @@ nav{
 .loading{
     z-index: 999;
     display: flex;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 160px);
     justify-content: center;
     align-items: center;
     font-size: 3rem;
@@ -317,7 +324,7 @@ nav{
     --text-muted: #7f8ea4;
     --selected: #3ddbd9;
     --highlight: #d9fbfb;
-    --error: #ff566d;
+    --error: #b35864;
     --correct: #1faf3f;
     --button-bg: #a52af8;
 }
