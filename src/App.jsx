@@ -13,6 +13,8 @@ const App = () => {
         isChecked = {isLight}
         handleChange = {() => setIsLight(prevState => !prevState)}
       />
+      <div className="circle c1" />
+      <div className="circle c2" />
       <Hero />
     </div>
   )

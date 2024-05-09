@@ -10,6 +10,9 @@
     background-color: var(--bg-primary);
     color: var(--text-primary);
     transition: all 0.3s ease-in;
+    z-index: -1;
+    overflow: hidden;
+    position: relative;
 }
 
 nav{
@@ -20,6 +23,27 @@ nav{
     align-items: flex-end;
     padding-right: 150px;
     padding-bottom: 30px;
+}
+
+.circle{
+    position: absolute;
+    height: 50vw;
+    width: 50vw;
+    background-color: transparent;
+    z-index: 0;
+    border-radius: 50%;
+    border: 7.8vw solid var(--bg-secondary);
+    transition: all 0.3s ease-in;
+}
+
+.c1{
+    top: -15.6vw;
+    left: -20.8vw;
+}
+
+.c2{
+    bottom: -15.6vw;
+    right: -20.8vw;
 }
 
 .toggle-space {
@@ -61,6 +85,7 @@ nav{
     padding: 50px 100px 0 100px;
     width: 100%;
     min-height: auto;
+    z-index: 2;
 }
 
 .description{
@@ -89,6 +114,7 @@ nav{
 .start-title{
     font-weight: 300;
     font-size: 5vw;
+    letter-spacing: -0.2vw;
 }
 
 .instruction{
@@ -119,6 +145,7 @@ nav{
 }
 
 .option{
+    z-index: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
