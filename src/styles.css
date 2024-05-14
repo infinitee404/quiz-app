@@ -253,7 +253,6 @@ nav{
     gap: 50px;
     padding-top: 100px;
     align-items: center;
-    height: 100vh;
     transition: 0.3s all ease-in;
 }
 
