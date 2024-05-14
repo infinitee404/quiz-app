@@ -87,7 +87,7 @@ const Quiz = ({ selectCategory, handleRestart }) => {
 				setWrongOption(null)
 				setCorrectOption(null)
 				setShowError(false)
-			}, 500) //ms before switching to next question
+			}, 1500) //ms before switching to next question
 		}
 		setSelectedOption(null)
 	}
